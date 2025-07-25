@@ -1,4 +1,4 @@
-package com.pattern7;
+package com.GQT.corejava.patterns;
 
 import java.util.Scanner;
 

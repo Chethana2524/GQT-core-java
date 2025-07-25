@@ -1,4 +1,4 @@
-package com.GQT.corejava.pattern1;
+package com.GQT.corejava.patterns;
 
 public class Pattern1 {
 

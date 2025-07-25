@@ -1,8 +1,8 @@
-package com.pattern14;
+package com.GQT.corejava.patterns;
 
 import java.util.Scanner;
 
-public class Pattern14 {
+public class Pattern13 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,15 +11,13 @@ public class Pattern14 {
 		int n = sc.nextInt();
 		int count;
 		for (int i =1;i<=n;i++){
-			for (int j =1;j<=i;j++) {
-				count = j;
-				System.out.print("*" +"  ");
-			count = count + 1;
+			count = i;
+			for (int j =1;j<=n;j++) {
+				System.out.print(count +"  ");
+			count = count + 5;
 		}
 			System.out.println();
 	}
 
 }
 }
-
-
